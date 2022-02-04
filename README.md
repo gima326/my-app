@@ -13,6 +13,9 @@ $ npx create-cljs-project my-app
 ### browser repl の立ち上げ
 
 ```sh
+$ pwd
+~/my-app
+
 $ npx shadow-cljs browser-repl
 ...
 ```
