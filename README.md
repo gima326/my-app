@@ -29,6 +29,7 @@ cljs.user=> (+ 1 2)
 
 ```sh
 $ npx shadow-cljs watch hello
+...
 ```
 
 ### reagent を使う
