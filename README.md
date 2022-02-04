@@ -1,6 +1,7 @@
-# my-app
+# reagent 事始め
 
-ClojureScript の shadow-cljs について。
+ClojureScript、shadow-cljs、react via reagent などなど。
+
 
 ### shadow-cljs のプロジェクト作成
 
