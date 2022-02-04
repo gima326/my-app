@@ -1,0 +1,35 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ [
+  [binaryage/devtools "1.0.4"]
+  [reagent "1.1.0"]
+;;  [binaryage/devtools "0.9.10"]
+;;  [reagent "0.8.0"]
+
+  ]
+
+ :dev-http {8080 "public"}
+ :builds
+ {:hello
+  {:target :browser
+   :modules {:main {:init-fn my-app.hw/init}}
+   }
+  :app
+  {:target :browser
+   :output-dir "public/js"
+   :asset-path "/js"
+
+   :modules
+   {:main
+    {:entries [my-app.core]}}
+
+   :devtools
+   {:after-load  my-app.core/init
+    :http-root   "public"
+    :http-port   3000}}
+  }}
