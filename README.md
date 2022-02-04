@@ -41,7 +41,14 @@ $ pwd
 ~/my-app
 
 $ npm install react react-dom create-react-class
-...
+my-app@0.0.1 ~/my-app
+├─┬ create-react-class@15.7.0 
+│ ├─┬ loose-envify@1.4.0 
+│ │ └── js-tokens@4.0.0 
+│ └── object-assign@4.1.1 
+├── react@17.0.2 
+└─┬ react-dom@17.0.2 
+  └── scheduler@0.20.2 
 
 $ npx shadow-cljs watch app
 ...
