@@ -2,8 +2,8 @@
 
 ClojureScript、shadow-cljs、react via reagent などなど。<br>
 
-[reagent "0.10.0"] 以降、関数「render」が「reagent.core/render is deprecated」だそうです。<br>
-参考にしたサイトのサンプルだけど、「reagent.dom/render」を使うように変更してやらないとエラー出まくりでした。<br>
+[reagent "0.10.0"] 以降、「reagent.core/render is deprecated」だそうです。<br>
+参考にしたサイトのサンプルだけど、関数「reagent.dom/render」を使うように変更してやらないとエラー出まくりでした。<br>
 
 ### shadow-cljs のプロジェクト作成
 
