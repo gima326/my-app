@@ -29,6 +29,8 @@ cljs.user=> (+ 1 2)
 
 ### 簡単な clojuescript のコード作成と実行
 
+"hello" は Build id で、[ shadow-cljs.edn ]に記載しているものと一致させるひつようがある。
+
 ```sh
 $ npx shadow-cljs watch hello
 ...
@@ -49,7 +51,11 @@ my-app@0.0.1 ~/my-app
 ├── react@17.0.2 
 └─┬ react-dom@17.0.2 
   └── scheduler@0.20.2 
+```
 
+"app" は Build id で、[ shadow-cljs.edn ]に記載しているものと一致させるひつようがある。
+
+```sh
 $ npx shadow-cljs watch app
 ...
 ```
