@@ -63,8 +63,8 @@ $ npx shadow-cljs watch app
 
 ## References
 
-- 「[clojurescriptのshadow-cljsについて][1]」 [ `https://qiita.com/lambda-knight/items/a69df35405b26f7a79cf` ]<br>
-- 「[Lesson 28: Using React via Reagent][2]」 [ `https://www.learn-clojurescript.com/section-5/lesson-28-using-react-via-reagent/` ]<br>
+- 「[clojurescriptのshadow-cljsについて][1]」<br> [ `https://qiita.com/lambda-knight/items/a69df35405b26f7a79cf` ]<br>
+- 「[Lesson 28: Using React via Reagent][2]」<br> [ `https://www.learn-clojurescript.com/section-5/lesson-28-using-react-via-reagent/` ]<br>
 
 [1]: https://qiita.com/lambda-knight/items/a69df35405b26f7a79cf
 [2]: https://www.learn-clojurescript.com/section-5/lesson-28-using-react-via-reagent/
