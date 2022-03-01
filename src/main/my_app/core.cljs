@@ -4,7 +4,7 @@
 
 (def greeting "Hello, World!")
 
-(defn app []
+(defn fn-app []
   [:div greeting])
 
 (defn stop []
@@ -13,8 +13,8 @@
 (defn start []
 　(do
     (js/console.log "Starting...")
-;;  (r/render [app]
-    (rd/render [app]
+;;  (r/render [fn-app]
+    (rd/render [fn-app]
             (.getElementById js/document "app"))))
 
 (defn ^:export init []
